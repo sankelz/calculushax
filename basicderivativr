@@ -1,0 +1,11 @@
+x = int(input("ur base number here"))
+y = int(input("ur exponent number here"))
+z = str(input("do you want to find the derivative"))
+def derivative(x, y, z):
+    if z == "yes":
+        a = x * y
+        b = y - 1 
+        print("your derivative is " + str(a) + " times your variable to the power of " + str(b) + " now scram")
+    else:
+        print("girl if you can do it by urself why u here.")
+print(derivative(x, y, z))
